@@ -23,7 +23,7 @@ transaction = (
         network_passphrase=Network.PUBLIC_NETWORK_PASSPHRASE,
         base_fee=server.fetch_base_fee()
     )
-    .add_text_memo(TextMemo(message))  # Adding the message as MEMO
+    .add_text_memo(message)  # Adding the message as MEMO
     .append_manage_data_op("signature", signature)  # Using 'manage_data' to add the signature
     .build()
 )
