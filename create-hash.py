@@ -1,4 +1,4 @@
-from stellar_sdk import Server, Keypair, Network, TransactionBuilder, TextMemo
+from stellar_sdk import Server, Keypair, Network, TransactionBuilder
 from stellar_sdk.exceptions import BadRequestError
 
 # Initial configurations
